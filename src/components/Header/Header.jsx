@@ -26,7 +26,7 @@ function Header() {
         </div>
 
         {open && (
-          <div className=" flex justify-between  md:hidden bg-blue-800 px-6 py-4 flex flex-col gap-4">
+          <div className=" flex justify-between  md:hidden bg-blue-800 px-6 py-4 flex flex-col gap-4 fixed w-full z-10">
             <a href="#header" onClick={() => setOpen(false)}>Home</a>
             <a href="#skills" onClick={() => setOpen(false)}>Skills</a>
             <a href="#projects" onClick={() => setOpen(false)}>Projects</a>

@@ -25,7 +25,7 @@ function Skills() {
   ];
 
   return (
-    <div className="w-full min-h-screen  bg-gray-900 text-white  sm:px-6 md:px-12 py-10" id="skills">
+    <div className="w-full min-h-screen  bg-gray-900 text-white  sm:px-6 md:px-12 py-6" id="skills">
       <h1 className="text-2xl md:text-4xl font-bold text-center mb-4">
         Skills
       </h1>
