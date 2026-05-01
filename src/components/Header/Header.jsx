@@ -4,9 +4,9 @@ function Header() {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="bg-gray-900 text-white">
+    <div className="bg-gray-900 text-white" id='header'>
 
-        <div className=" mx-auto flex items-center justify-between h-16 px-4 sm: w-[320px] ">
+        <div className="  flex items-center justify-between h-16 px-4 fixed z-10 w-full bg-gray-900">
 
           <h1 className="text-xl font-bold">Portfolio</h1>
 
@@ -26,7 +26,7 @@ function Header() {
         </div>
 
         {open && (
-          <div className="md:hidden bg-blue-800 px-6 py-4 flex flex-col gap-4">
+          <div className=" flex justify-between  md:hidden bg-blue-800 px-6 py-4 flex flex-col gap-4">
             <a href="#header" onClick={() => setOpen(false)}>Home</a>
             <a href="#skills" onClick={() => setOpen(false)}>Skills</a>
             <a href="#projects" onClick={() => setOpen(false)}>Projects</a>
@@ -35,7 +35,7 @@ function Header() {
         )}
 
       <div className="pt-24 px-6 md:px-16 min-h-screen flex items-center md:[320px] ">
-        <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-10">
+        <div className="max-w-7xl mx-auto flex flex-col gap-[18rem]  md:flex-row items-center justify-between gap-10">
 
           <div>
             <h1 className="text-3xl md:text-5xl font-bold mb-4">
@@ -49,11 +49,9 @@ function Header() {
             </p>
           </div>
 
-          <img
-            src="https://s3.us-west-2.amazonaws.com/images.unsplash.com/small/photo-1555952517-2e8e729e0b44"
+          <img src="https://s3.us-west-2.amazonaws.com/images.unsplash.com/small/photo-1555952517-2e8e729e0b44"
             alt="Avatar"
-            className="rounded-full w-40 h-40 md:w-64 md:h-64 object-cover"
-          />
+            className="rounded-full w-64 h-64 md:w-[760px] md:h-[680px] object-cover"/>
 
         </div>
       </div>

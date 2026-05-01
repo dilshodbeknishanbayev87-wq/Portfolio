@@ -4,13 +4,13 @@ function Project() {
   return (
     <div
       id="projects"
-      className="w-full min-h-screen bg-gray-900 text-white px-4 md:px-10 py-16"
+      className="w-full min-h-screen  bg-gray-900 text-white py-100 px-4 md:px-10 py-16"
     >
-      <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-20">
+      <div className=" mx-auto  flex flex-col lg:flex-row items-center gap-10 lg:gap-20">
 
-        <div className="w-full max-w-[500px] border border-blue-400 rounded-3xl p-3">
+        <div className="w-full max-w-[1000px] border border-blue-400 rounded-3xl p-3">
           <img
-            className="w-full h-[200px] md:h-[300px] object-cover rounded-2xl"
+            className="w-full h-[200px] md:h-[500px] w-full object-cover rounded-2xl"
             src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQPXP_l3OhekVtWu7qBvRpJKAqF9dSnGk9QGSHZ8bidew8iC9zA"
             alt="project"
           />
